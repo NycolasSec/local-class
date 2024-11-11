@@ -1,0 +1,17 @@
+meta {
+  name: Create domain
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://127.0.0.1:3000/api/domains
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"Redes"
+  }
+}
